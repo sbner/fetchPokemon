@@ -1,0 +1,17 @@
+#inputBox {
+	background-color: #ffffff;
+
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 20px;	
+}
+
+#pokemon-input {
+	margin-top: 20px;
+	border-radius:5px;
+	text-align: center;
+}
