@@ -31,8 +31,8 @@ class App extends Component {
 	fetch(`https://pokeapi.co/api/v2/pokemon/${this.state.pokemon}`)
 		.then(data => data.json())
 		.then(pokemonInfo => {
-			this.setState({pokemonName: Object.values(pokemonInfo)[10]})
-			this.setState({pokemonImg: Object.values(pokemonInfo)[13].front_default})
+			this.setState({pokemonName: Object.values(pokemonInfo)[10]});
+			this.setState({pokemonImg: Object.values(pokemonInfo)[14].front_default});
 		})
 	}
 
