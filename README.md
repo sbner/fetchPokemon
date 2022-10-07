@@ -1,3 +1,5 @@
+#  Poke api has gone through some changes, so unfortunatelly this project lost it's cool pokemon pics. Someday I'll sure fix it. Sorry about it.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
