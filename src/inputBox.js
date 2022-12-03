@@ -6,7 +6,7 @@ const InputBox = ({ pokemon,inputNumber,keyPress }) => {
 		<Fragment>
 		<div className='tc' id='inputBox'>
 		<label>Type a number and get a pokemon!</label>
-		<input id='pokemon-input' type="text" onKeyPress={keyPress} onChange={inputNumber} placeholder='type a number from 1 to 807' />
+		<input id='pokemon-input' type="text" onKeyPress={keyPress} onChange={inputNumber} placeholder='type a number from 1 to 905' />
 		</div>
 		</Fragment>
 	)
